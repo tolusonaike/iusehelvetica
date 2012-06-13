@@ -1,0 +1,61 @@
+/* -------------------------------------------------------------- 
+   Reset
+-------------------------------------------------------------- */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+body { line-height: 1.25; background: #fff; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight:400; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; } 
+blockquote, q { quotes: "" ""; font-family:Georgia,"Times New Roman",Times,serif;font-style:italic;}
+a img { border: none; }
+input,textarea { margin: 0; }
+
+/* Removes Firefox imposed outline */
+a { outline: none; }
+
+/* Clearing floats without extra markup  */
+.wrapper { display: inline-block; }
+.wrapper:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .wrapper { height: 1%; }
+.wrapper { display: block; }
+
+/* -------------------------------------------------------------- 
+   Typography
+-------------------------------------------------------------- */
+
+/* This is where you set your desired font size. The line-heights 
+   and vertical margins are automatically calculated from this. 
+   The percentage is of 16px (0.75 * 16px = 12px). */
+body { font-size: 85%; }
+
+/* Default fonts and colors. */
+
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,input,textarea { font-family: Helvetica, Arial, sans-serif; }
+p,ul,ol,dl{color:#666}
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: bold; margin:0em; }
+
+h1 { font-size: 3em; line-height: 1;margin-bottom: 0.25em;letter-spacing:-0.5px; }
+h2 { font-size: 2em;margin-bottom: 0.25em; }
+h3 { font-size: 1.5em; line-height: 1;margin-bottom: 0.25em; }
+h4 { font-size: 1.2em; line-height: 1.25; margin-bottom: 0; }
+h5 { font-size: 1em; margin-bottom: 0.25em; }
+h6 { font-size: 1em; }
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p { margin: 0 0 0.5em; }
+
+em, dfn { font-style: italic; }
+
+ul {margin-top:0px;}
+span.amp { /* For better-looking ampersands */
+  font-family: Baskerville, Palatino, "Book Antiqua", serif;
+  font-style: italic;
+}

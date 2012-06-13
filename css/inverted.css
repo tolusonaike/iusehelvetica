@@ -1,0 +1,75 @@
+/*   
+
+Stylesheet for inverted base colors
+
+*/
+
+
+#commentform .form-submit input {
+background:none;
+border:3px solid #fff;
+color:#fff;
+margin-top:10px;
+}
+
+#content {
+border-top:5px solid #fff;
+padding-top:5px;
+}
+
+#footer {
+background:#333;
+color:#666
+}
+
+#footer a{
+color:#000
+}
+
+#footer:hover{
+	background:#fff
+}
+
+
+
+
+#primary,#secondary {
+border-top:3px solid #fff;
+}
+
+#searchform input {
+background:#fff;
+border:1px solid #fff;
+color:#666;
+width:150px;
+}
+
+.entry-utility,.entry-utility a,.entry-meta,.entry-meta a,#nav-above,#nav-above a {
+color:#222;
+}
+
+.entry-utility:hover a:hover,.entry-meta:hover a:hover,#nav-above:hover a:hover {
+color:#FF4B33;
+}
+
+.entry-utility:hover,.entry-utility:hover a,.entry-meta:hover,.entry-meta:hover a,#nav-above:hover,#nav-above:hover a {
+color:#fff;
+}
+
+.menu ul li a {
+background:#fff;
+color:#000 !important;
+}
+
+a,body,h1,h2,h3,h4,h5,h6,p a,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,.meta-data {
+color:#FFF;
+}
+
+body {
+background:#151515;
+}
+
+p {
+color:gray;
+}
+

@@ -1,0 +1,36 @@
+/*   
+
+Stylesheet for fixed sidebars with static content
+
+*/
+
+#container {
+padding-bottom:50px;
+}
+
+#footer {
+bottom:0;
+padding:2px 5px;
+position:fixed;
+width:1020px;
+z-index:999999
+}
+
+#header,#primary,#secondary {
+position:fixed;
+}
+
+#main {
+float:none;
+margin-left:170px;
+width:850px;
+}
+
+#secondary {
+margin-left:180px;
+}
+
+#siteinfo {
+margin:0 auto;
+}
+

@@ -1,0 +1,309 @@
+/*   
+Theme Name: iusehelvetica
+Theme URI: http://demo.iusehelvetica.com
+Description: iusehelvetica is a minimalist child theme based on the Thematic framework.
+Author: Tolu Sonaike
+Author URI: http://tolusonaike.com/
+Template: thematic
+Version: 1.0
+Tags: Thematic
+.
+Thematic is © Ian Stewart http://themeshaper.com/
+.
+*/
+
+/* Reset browser defaults */
+@import url('css/reset.css');
+
+/* Apply basic typography styles */
+@import url('css/typography.css');
+
+
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+/* new clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+/* =Layout
+-------------------------------------------------------------- */
+
+                                            
+#container {
+width:490px;
+}
+
+#footer {
+clear:both;
+display:block;
+text-align:center;
+}
+
+#header,#primary,#secondary {
+width:150px;
+}
+
+#header,#primary,#secondary,#container {
+display:inline;
+float:left;
+margin-left:10px;
+margin-right:10px;
+position:relative;
+}
+
+#main {
+float:left;
+width:850px;
+}
+
+#primary ul,#secondary ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+#primary,#secondary {
+border-top:3px solid #000;
+}
+
+#wrapper {
+margin-left:auto;
+margin-right:auto;
+width:1020px;
+}
+
+.menu {
+margin-top:10px;
+}
+
+.menu ul {
+  padding:0px
+}
+.menu ul li {
+list-style-type:none;
+margin:20px 0;
+text-align:right;
+}
+
+.menu ul li a {
+-moz-border-radius-bottomleft:4px;
+-moz-border-radius-bottomright:4px;
+-moz-border-radius-topleft:4px;
+-moz-border-radius-topright:4px;
+background-color:#000;
+color:#FFF;
+padding:6px 15px;
+text-decoration:none;
+}
+
+.menu ul li a:hover {
+background-color:#FF4B33;
+}
+
+.skip-link {
+display:none;
+}
+
+
+
+/* =Custom
+-------------------------------------------------------------- */
+#blog-description {
+clear:both;
+font-family:georgia;
+font-style:italic;
+}
+
+#blog-title,#branding {
+text-align:right;
+}
+
+#commentform .form-submit input {
+background:none;
+border:3px solid #000;
+margin-top:10px;
+}
+
+#commentform textarea {
+width:490px;
+}
+
+#comments .avatar {
+height:24px;
+width:24px;
+}
+
+#comments ol {
+margin:0;
+padding:0;
+}
+
+#content {
+border-top:5px solid #000;
+padding-top:10px
+}
+
+#footer {
+background:#333;
+color:#666
+}
+
+#footer a{
+color:#fff
+}
+
+#footer a:hover {
+    color:#FF4B33;
+}
+
+
+
+.formcontainer{
+	
+	margin-bottom:10px
+}
+
+#nav-above {
+clear:both;
+display:block;
+}
+
+#searchform input {
+background:#000 none repeat scroll 0 0;
+border:1px solid #000;
+color:#FFF;
+width:150px;
+}
+
+#skip-link,#searchform #searchsubmit,#nav-below,#commentform #form-allowed-tags {
+display:none;
+}
+
+.entry-thumbnail {
+margin:0 auto 10px;
+text-align:center;
+}
+
+.entry-utility,.entry-utility a,.entry-meta,.entry-meta a,#nav-above,#nav-above a {
+color:#d0d0d0;
+}
+
+.meta-data {
+font-weight:700;
+}
+
+.meta-data .comments,.nav-next {
+float:right;
+}
+
+.meta-data .date,.nav-previous {
+float:left;
+}
+
+.post {
+border-bottom:1px dotted #666;
+clear:both;
+margin-bottom:10px;
+padding-bottom:10px;
+}
+
+.widget_tag_cloud div a {
+border-bottom:1px dotted #666;
+display:block;
+font-weight:700;
+margin-bottom:5px;
+text-decoration:none;
+}
+
+.widgetcontainer ul li {
+border-bottom:1px dotted #666;
+margin-bottom:5px;
+}
+
+.widgetcontainer ul li a {
+font-weight:700;
+text-decoration:none;
+}
+
+.widgetcontainer ul li a:hover {
+color:#fff;
+}
+
+.widgetcontainer ul li:hover {
+background-color:#FF4B33;
+}
+
+a,.entry-utility:hover,.entry-utility:hover a,.entry-meta:hover,.entry-meta:hover a,#nav-above:hover,#nav-above:hover a {
+color:#000;
+}
+
+a:hover,.entry-utility:hover a:hover,.entry-meta:hover a:hover,#nav-above:hover a:hover {
+color:#FF4B33;
+}
+
+h1#blog-title {
+float:right;
+letter-spacing:-1px;
+line-height:0.9;
+margin-bottom:0;
+width:99px;
+}
+
+h1#blog-title a,h2.entry-title a {
+text-decoration:none;
+}
+
+h3.widgettitle {
+font-size:1.5em;
+line-height:1;
+margin:0.5em 0;
+}
+
+p.quote,p.description,p.excerpt {
+font-family:Georgia,"Times New Roman",Times,serif !important;
+font-style:italic;
+margin:0;
+}
+
+ /* =Opera browsers
+-------------------------------------------------------------- */
+.opera #primary{
+margin-left:520px
+}
+
+.opera #secondary {
+margin-left:690px
+}
+
+
+ /* =IE6
+-------------------------------------------------------------- */
+
+.ie #secondary{
+margin-right:5px !important
+}
+
+.ie #primary ,#secondary   {
+display:inline
+}
